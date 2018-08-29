@@ -1,17 +1,34 @@
 Roadmap
 -------
 
+The Data Object Service has been implemented in multiple workflow execution engines 
+and has helped to allow cloud agnostic data access. A small network of DOS servers 
+is available from a resolver at dataguids.org.
+
+Software for presenting Human Cell Atlas, NCI GDC, GTEx, and TOPMed data are all made 
+available. Making it easier to discover, interact with, access, and publish new data 
+using supporting software, documentation, and possible schema changes make up the 
+bulk of this roadmap.
+
 ## Goal
 
-Create an interoperability layer that allows metadata about resources to be interchanged using a common client.
+### Short term - 6 months
+
+Release version 1 and improve ease of use and adoption through supporting software. 
+Provide a model for cloud agnostic data management and a network of resolving services.
+
+### Long term
+
+Interoperate with most major scientific data providers to enable a decentralized 
+network of Data Object Services.
 
 ## Metrics of success
 
-What data are available by DOS? GDC? TOPMed? HCA? How many files/bundles/PB?
+What data are available by DOS?
 
-How many workflows have been converted to use DOS downloader?
+How easy is it to publish new data using a Data Object Service?
 
-How many applications or services offer a DOS interop layer?
+What supporting software uses the Data Object Service?
 
 ## Milestones
 
